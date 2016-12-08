@@ -34,5 +34,21 @@
   },
   "resolutions": {
     "test-fixture": "custom-elements-v1"
+  },
+  "variants": {
+    "1.x": {
+      "dependencies": {
+        "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#^1.0.0",
+        "iron-validatable-behavior": "PolymerElements/iron-validatable-behavior#^1.0.0",
+        "polymer": "Polymer/polymer#^1.1.0"
+      },
+      "devDependencies": {
+        "iron-demo-helpers": "polymerelements/iron-demo-helpers#^1.0.0",
+        "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^1.0.0",
+        "paper-styles": "polymerelements/paper-styles#^1.0.0",
+        "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+        "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+      }
+    }
   }
 }
